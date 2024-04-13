@@ -30,16 +30,20 @@ sudo apt-get install git
 #### 1.3.1 windows平台
 
 - 成功案例
+
 ![windows下git添加到环境变量的正确案例.png](https://images.bravexist.cn/rest/2024/04/x6xRP2K.png)
 
 - 失败案例
+
 ![windows下git添加到环境变量的错误案例.png](https://images.bravexist.cn/rest/2024/04/M7mrP2K.png)
 
 #### 1.3.2linux平台
 - 成功案例
+
 ![Linux下git添加到环境变量的正确案例.png](https://images.bravexist.cn/rest/2024/04/EFkSP2K.png)
 
 - 失败案例
+
 ![Linux下git添加到环境变量的错误案例.png](https://images.bravexist.cn/rest/2024/04/YXzSP2K.png)
 #### 1.3.3 配置全局用户名和邮箱
 ```
