@@ -30,14 +30,11 @@ sudo apt-get install git
 #### 1.3.1 windows平台
 
 - 成功案例
-![windows下git添加到环境变量的正确案例.png]
-
-(https://images.bravexist.cn/rest/2024/04/x6xRP2K.png)
+![windows下git添加到环境变量的正确案例.png](https://images.bravexist.cn/rest/2024/04/x6xRP2K.png)
 
 - 失败案例
-![windows下git添加到环境变量的错误案例.png]
+![windows下git添加到环境变量的错误案例.png](https://images.bravexist.cn/rest/2024/04/M7mrP2K.png)
 
-(https://images.bravexist.cn/rest/2024/04/M7mrP2K.png)
 #### 1.3.2linux平台
 - 成功案例
 ![Linux下git添加到环境变量的正确案例.png](https://images.bravexist.cn/rest/2024/04/EFkSP2K.png)
@@ -228,6 +225,30 @@ git revert HEAD
 ```
 
 **注意** ：此种方式会给`git log`留下记录，且默认会自动打开编辑器，用于写注释
+
+### 3.4 不同版本之间的对比
+
+1. 工作区与暂存区的对比
+
+```
+git diff
+git diff 文件名
+```
+
+1. 工作区与最新版本库的对比
+
+```
+git diff HEAD
+git diff HEAD 文件名
+```
+
+1. 暂存区与最新版本库的对比
+
+```
+git diff --cached
+```
+
+默认会比较工作区与暂存的，`--cached`会比较暂存区与最新提交的，也可以指定任意提交哈希值
 
 ## 4.分支相关
 
