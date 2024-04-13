@@ -377,6 +377,7 @@ git remote add 别名 ssh协议的地址
 
 ```
 git remote set-url 别名 新的url
+git rm set-url 别名 新的url
 ```
 
 1. 删除远程库
@@ -461,7 +462,14 @@ git push 别名 --tags
 git push 别名 :refs/tags/版本号
 ```
 
-## 7. 其它配置
+## 7. 其它情况
+
+1. 文件重命名或移动路径，删除对文件的跟踪
+
+```
+git mv 旧名称或路径 新路径或新名称
+git rm 不需要跟踪的文件
+```
 
 1. 别名
 
