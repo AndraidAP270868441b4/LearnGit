@@ -377,7 +377,6 @@ git remote add 别名 ssh协议的地址
 
 ```
 git remote set-url 别名 新的url
-git rm set-url 别名 新的url
 ```
 
 1. 删除远程库
