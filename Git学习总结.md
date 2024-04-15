@@ -88,6 +88,7 @@ git log --graph
 git log --abbrev-commit
 git log --pretty=oneline --graph --abbrev-commit
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
 ```
 
 `--abbrev-commit` 参数将显示短（7个字符，正常情况40个）的哈希值
@@ -109,7 +110,6 @@ git reset --hard 版本哈希值
 git reflog
 git log --all
 git log --walk-reflogs
-git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
 ```
 
 - `--pretty="..."` 定义输出的格式
